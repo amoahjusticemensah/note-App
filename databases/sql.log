@@ -1,0 +1,97 @@
+timestamp: 2018-08-09T22:31:14.204000
+CREATE TABLE "users"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "db_topic" CHAR(512),
+    "db_typenote" CHAR(512)
+);
+success!
+timestamp: 2018-08-09T22:31:54.996000
+CREATE TABLE "addnotes"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "db_topic" CHAR(512),
+    "db_typenote" CHAR(512)
+);
+success!
+timestamp: 2018-08-09T22:41:57.120000
+ALTER TABLE "AddNotes" ADD "db_notecategory" CHAR(512);
+timestamp: 2018-08-09T22:41:57.126000
+ALTER TABLE "AddNotes" ADD "db_seeallnote" CHAR(512);
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+timestamp: 2018-08-10T00:10:48.872000
+CREATE TABLE "notes"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "db_topic" CHAR(512),
+    "db_typenote" CHAR(512)
+);
+success!
+timestamp: 2018-08-11T00:10:20.216000
+CREATE TABLE "seeallnote"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "db_topic" CHAR(512),
+    "db_typenote" CHAR(512)
+);
+success!

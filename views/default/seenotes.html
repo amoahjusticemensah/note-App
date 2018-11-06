@@ -1,0 +1,9 @@
+{{if notes:}}
+   {{for note in notes:}}
+       <p>
+       	Topic is {{=note.db_topic}} , Type note is{{=note.db_typenote}}
+       </p>
+    {{pass}}
+{{else:}}
+     <h2>No info can be found</h2>
+{{pass}}            	

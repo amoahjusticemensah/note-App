@@ -1,0 +1,40 @@
+html{
+	padding :0;
+	margin: 0;
+	width: 100%;
+	height:100vh;
+
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: violet;
+
+}
+
+.noteBook{
+
+}
+
+.HOME{
+	text-shadow:transparent;
+
+}
+
+.CreateNote{
+
+}
+
+#starthere{
+	padding: 0;
+	width : 120px;
+	font-family: all;
+	font-weight: bolder
+}
+
+#topic{
+
+}

@@ -1,0 +1,77 @@
+<form action="{{=URL('store')}} method="post">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge{{=not request.is_local and',chrome=1' or ''}}">
+
+        
+      <link rel="stylesheet" href="{{=URL('static','css/bootstrap.css')}}"/>
+
+      <!-- [if It IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3/7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+      </head>
+      <body>
+          <!-- Body content goes here -->
+          
+          <link rel="stylesheet" href="{{=URL('static','css/bootstrap.css')}}"/>
+          <link rel="stylesheet" href="{{=URL('static','css/style.css')}}"/>
+
+
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                 <h1>noteBook <small>Exploring different set of notepad</small></h1>
+              </div>
+            </div>  
+
+              <hr>
+
+              <div class="alert alert-success alert-dismissable">
+               <button type="button" class="close" data-dismiss="alert"> &times;</button><h3>
+                Note Added Successfully</h3>
+            </div>
+
+            <div class="container">
+               <div class="split left">
+                    <button>create Note</button>
+                    <button class="btn">See All Note</button>
+                  </div>
+
+        
+                          
+                    <div class="split right">
+                      <strong><h2>Start Here</h2></strong>
+                        <form class="form">
+                         <div class="form-group">
+                           <label for="topicField" class="col-xs-10">Topic</label>
+                             <div class="col-xs-10">
+                          <input type="text" class="form-control" id="nameField" placeholder="Type note topic here"/>
+                       </div>
+                       
+                       <div class="form-group">  
+                         <label for="addnoteField">Type Note</label>
+                            <input type="text" class="form-control" id="addnoteField" placeholder="Add note here"/>
+                       </div>     
+                  
+
+                       <button type="save"class="btn btn-primary-lg">Save</button>
+                     </div>
+                 </div>
+
+    
+                        
+
+
+       <script src="js/jquery.js"></script>
+       <script src="js/bootstrap.js"></script>
+
+  </div>
+ </body>
+</html> 
+</form>
